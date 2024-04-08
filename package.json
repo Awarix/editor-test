@@ -1,0 +1,57 @@
+{
+  "name": "my_app_test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tiptap/extension-bubble-menu": "^2.2.4",
+    "@tiptap/extension-color": "^2.2.4",
+    "@tiptap/extension-highlight": "^2.2.4",
+    "@tiptap/extension-text-align": "^2.2.4",
+    "@tiptap/extension-text-style": "^2.2.4",
+    "@tiptap/extension-underline": "^2.2.4",
+    "@tiptap/react": "^2.2.4",
+    "@tiptap/starter-kit": "^2.2.4",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.94",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "prosemirror-commands": "^1.5.2",
+    "prosemirror-state": "^1.4.3",
+    "prosemirror-view": "^1.33.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.1",
+    "scss": "^0.2.4",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
